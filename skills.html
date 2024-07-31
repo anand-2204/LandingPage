@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .skills {
+        width: 100%;
+        padding: 25px;
+        margin: auto;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      .container {
+        max-width: 986px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        margin-top: 40px;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+        gap: 10px;
+        padding: 15px;
+      }
+      .skill {
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        padding: 10px;
+
+        font-size: 20px;
+        font-weight: 700;
+      }
+      h2{
+        text-align: center;
+        font-size: 50px;
+        color: tomato;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="container">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">MySQL</div>
+        <div class="skill">Nodejs</div>
+        <div class="skill">MongoDB</div>
+      </div>
+    </div>
+  </body>
+</html>
